@@ -1,0 +1,5 @@
+验证了webpack对 import('./lib/' + filename) 的支持及其对split chunks的影响。
+
+简单来说，webpack遇到这种语法后，默认会把这个目录下的所有内容都打包，且目前看起来并不会因此影响分chunk
+
+npm start

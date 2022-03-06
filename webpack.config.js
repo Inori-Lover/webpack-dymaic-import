@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   cache: false,
   entry: {
-    index: './src/index.import.js'
+    inori: './src/inori.import.js'
   },
   output: {
     filename: '[name].bundle.js',
